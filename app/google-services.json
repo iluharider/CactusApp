@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "705030645050",
+    "project_id": "cactusapp-3d079",
+    "storage_bucket": "cactusapp-3d079.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705030645050:android:81907d4a21745330bf5c03",
+        "android_client_info": {
+          "package_name": "com.example.cactusapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705030645050-u5v0pmb56u3kris7lt5gioa9of4g191s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cactusapp",
+            "certificate_hash": "b575086b7825c57cf36e694c9084a8cd3075a4b2"
+          }
+        },
+        {
+          "client_id": "705030645050-cohdbb2vai7q93i04f9g8ga61qq3lfva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoBtZ70tZ_MXPJMF9E5OxJnuK-mSmhMto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705030645050-cohdbb2vai7q93i04f9g8ga61qq3lfva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
