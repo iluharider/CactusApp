@@ -1,4 +1,4 @@
-package com.example.cactusapp.presentation.profile
+package com.example.cactusapp.presentation.feed
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
@@ -25,9 +25,7 @@ import com.example.cactusapp.BottomBar1
 
 
 @Composable
-fun ProfileScreen(
-    userData: UserData?,
-    onSignOut: () -> Unit,
+fun FeedScreen(
     navController : NavHostController
 ) {
     Scaffold(
@@ -35,34 +33,15 @@ fun ProfileScreen(
         var modifier = Modifier.padding(padding)
 
 
-    Column(
-        modifier = Modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally,
-    ) {
-        Text(stringResource(id = R.string.profile_title), fontSize = 20.sp, fontWeight = FontWeight.Light)
-        Spacer(modifier = Modifier.height(30.dp))
-        if(userData?.username != null) {
-            Text(
-                text = userData.username,
-                textAlign = TextAlign.Center,
-                fontSize = 20.sp,
-                fontWeight = FontWeight.SemiBold
-            )
-            Spacer(modifier = Modifier.height(30.dp))
+        Column(
+            modifier = Modifier.fillMaxSize(),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
+            Text(stringResource(id = R.string.feed_title), fontSize = 40.sp, fontWeight = FontWeight.Bold)
+
         }
-        Button(onClick = onSignOut) {
-            Text(text = "Sign out")
-        }
-    }
     }
 }
 
-//val userData = UserData(username = "Илья Бондаренко", userId = "123456", profilePictureUrl = null)
 
-//@Preview
-//@Composable
-//fun ProfileScreenPreview(){
-//    ProfileScreen(userData = userData) {
-//    }
-//}

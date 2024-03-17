@@ -3,4 +3,6 @@
     <string name="web_client_id">705030645050-cohdbb2vai7q93i04f9g8ga61qq3lfva.apps.googleusercontent.com</string>
     <string name="profile_title">"Your Profile:"</string>
     <string name="welcome_string">Welcome to Cactus App</string>
+    <string name="feed_title">PROJECTS FEED</string>
+    <string name="home_title">MY PROJECTS</string>
 </resources>
